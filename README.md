@@ -13,3 +13,6 @@ The aim to construct an interface between Human's brain and a computer pays a wa
 
 ## Review on Dataset 
 The Dataset is used in the research is [Brain-Computer Interface III](https://www.bbci.de/competition/iii/). In the dataset, the basic human activities such as moving hands, legs etc been mapped with the respective neural signals from the motor cortex. Those signals are preprocessed to train the Artificial Intelligence model which can further predicts those activites with the generated signals from brain
+
+## Deep Learning Architecture 
+As the signals can be treatd as 1D as well as 2D, the construction of DL architectures are made up with Convolutional 1D and 2D as well. The convolutional layers are acting as feature selectors which picks up the best feature and push to LSTM layers which acts as the classifiers in the cases of both 1D and 2D signals. 
