@@ -5,7 +5,7 @@
 1. General Note 
 2. Review on Dataset 
 3. Deep Learning Architecture 
-4. Results 
+4. Citation
 
 ## General Note
 
@@ -16,3 +16,19 @@ The Dataset is used in the research is [Brain-Computer Interface III](https://ww
 
 ## Deep Learning Architecture 
 As the signals can be treatd as 1D as well as 2D, the construction of DL architectures are made up with Convolutional 1D and 2D as well. The convolutional layers are acting as feature selectors which picks up the best feature and push to LSTM layers which acts as the classifiers in the cases of both 1D and 2D signals. 
+
+## Citation 
+Please cite our article on utilizing our results or methods 
+```
+@article{vimal2023deep,
+  title={Deep Learning Architecture for Motor Imaged Words},
+  author={Vimal W and Gupta, Akshansh},
+  journal={arXiv preprint arXiv:2308.10840},
+  year={2023},
+  eprint={2308.10840},
+  archivePrefix={arXiv},
+  primaryClass={q-bio.NC},
+  doi={10.48550/arXiv.2308.10840}
+}
+
+```
